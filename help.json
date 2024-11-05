@@ -1,0 +1,8 @@
+{
+    "1":{
+        "warn @user":"Adds a warning to a user",
+        "unwarn @user":"Removes a warning from a user",
+        "show_warnings_table":"Shows the table of users that have a entry in the database, and how many warnings they have",
+        "help":"Shows this menu"
+    }
+}

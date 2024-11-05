@@ -1,4 +1,4 @@
 config.py
 *.txt
-*.json
+Userdatabase.json
 test.py
