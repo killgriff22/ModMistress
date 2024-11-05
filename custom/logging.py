@@ -53,8 +53,8 @@ def create_log(channelid,date):
         Path(f"channels/{channelid}/extra-{date}.txt").touch()
     pass
 
-def load_database():
-    database_file = open("UserDatabase.json","r")
+def load_database(db="UserDatabase.json"):
+    database_file = open(db,"r")
     database = json.loads(database_file.read())
     database_file.close()
     return database
