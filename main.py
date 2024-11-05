@@ -30,6 +30,7 @@ async def on_message(message:discord.Message):
         msg = msg.split(" ")
         msg.append("")
         command, args = msg[0],msg[1:] #divide out the command and it's args
+        print(command,args)
         mentions = message.mentions
         if command in commands.__dict__:
             await commands.__dict__[command](args, mentions, message)
